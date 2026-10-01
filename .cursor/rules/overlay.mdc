@@ -1,0 +1,10 @@
+---
+description: Laboratory standards and guidelines from agent overlay
+globs: *
+alwaysApply: true
+---
+This project adheres to the laboratory standards defined in `.agents/overlay/`.
+- **Architectural Decisions (ADR)**: Use the MADR template from `.agents/overlay/rules/adr.md` (or corresponding skills) when recording decisions in `docs/adr/`.
+- **Pull Requests**: Follow the conventions in `.agents/overlay/rules/pr.md`. Provide clear descriptions and reproduction steps.
+- **Verification**: Always run `make check` before finalizing changes and ensure all checks pass. Never bypass checks with `--no-verify`.
+- **Hygiene & Security**: Never commit secrets, credentials, `.env` files, or raw datasets (>50MB).

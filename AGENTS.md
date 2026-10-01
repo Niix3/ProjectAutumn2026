@@ -52,3 +52,8 @@ it. Never edit an accepted record; a change is a new record that supersedes it.
 
 Meeting records: `docs/meetings/YYYY-MM-DD.md` from the template in that folder. Experiments are
 issues opened from the Experiment form; the PR that closes one carries `Closes #N`.
+## Laboratory Overlay
+This project uses shared guidelines, rules, and skills from the laboratory overlay located at `.agents/overlay/`.
+- Rules: `.agents/overlay/rules/`
+- Skills: `.agents/overlay/skills/`
+Always run `make check` before finishing tasks and never bypass checks with `--no-verify`.
